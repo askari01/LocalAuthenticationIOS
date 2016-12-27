@@ -12,6 +12,7 @@
 		36508F851E12C4BD00772F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36508F831E12C4BD00772F05 /* Main.storyboard */; };
 		36508F871E12C4BD00772F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36508F861E12C4BD00772F05 /* Assets.xcassets */; };
 		36508F8A1E12C4BD00772F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36508F881E12C4BD00772F05 /* LaunchScreen.storyboard */; };
+		36508F931E12C5ED00772F05 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36508F921E12C5ED00772F05 /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		36508F861E12C4BD00772F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36508F891E12C4BD00772F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36508F8B1E12C4BD00772F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36508F921E12C5ED00772F05 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36508F931E12C5ED00772F05 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				36508F7E1E12C4BD00772F05 /* LocalAuthenticationIOS */,
 				36508F7D1E12C4BD00772F05 /* Products */,
+				36508F911E12C5EC00772F05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				36508F8B1E12C4BD00772F05 /* Info.plist */,
 			);
 			path = LocalAuthenticationIOS;
+			sourceTree = "<group>";
+		};
+		36508F911E12C5EC00772F05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36508F921E12C5ED00772F05 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
